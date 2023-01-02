@@ -71,6 +71,7 @@ type KanikoOptions struct {
 	ImageFSExtractRetry      int
 	SingleSnapshot           bool
 	Reproducible             bool
+	ZeroFileTimestamps       bool
 	NoPush                   bool
 	NoPushCache              bool
 	Cache                    bool
